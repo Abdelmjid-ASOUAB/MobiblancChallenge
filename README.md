@@ -1,6 +1,6 @@
 # MobiblancChallenge
 
-A sample Android application built with Kotlin and Jetpack Compose.
+A sample Android application that fetches user data, built with Kotlin and Jetpack Compose, created to participate in the Mobiblanc Code Challenge.
 
 ## Features
 
