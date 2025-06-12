@@ -95,4 +95,9 @@ class ViewModelTest {
         assertTrue(finalState.loadingState is LoadingState.Error)
         assertEquals(errorMessage, (finalState.loadingState as LoadingState.Error).message)
     }
+
+    @After
+    fun after() {
+        Dispatchers.resetMain()
+    }
 }
